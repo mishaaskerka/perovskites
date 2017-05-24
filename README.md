@@ -13,7 +13,7 @@ You will need a working Python2 installation. Then follow this link to install t
 Here are the steps to install the modules required by the python script:
 
 ```
-pip install numpy matplotlib pandas mendeleev==0.2.8 requests 
+pip install numpy matplotlib pandas mendeleev==0.2.8 requests sqlalchemy 
 
 pip install --upgrade --user ase
 
