@@ -8,19 +8,28 @@ Making **stable** perovskites with a given electronic structure is of interest f
 
 ## Installation
 
-You will need a working python 2 installation. Then follow this link to install the python package manager **pip** https://pip.pypa.io/en/stable/installing/
+You will need a working Python2 installation. Then follow this link to install the python package manager **pip** https://pip.pypa.io/en/stable/installing/
 
 Here are the steps to install the modules required by the python script:
 
 ```
-pip install numpy matplotlib pandas mendeleev==0.2.8 
+pip install numpy matplotlib pandas mendeleev==0.2.8 requests 
 
 pip install --upgrade --user ase
 
 pip install -U scikit-learn 
 
 ```
+
+## Run the Code
+
+```
+python heat_of_formation_Ridge.py 
+```
+
+This will create a csv file that is ready to use by any machine leanring module and an image with the predictions of the Kernel Ridge regressor. 
+
 ## Contributors
 
-Mikhail Askerka (Yale University, mikhail.askerka@aya.yale.edu) 
+Mikhail Askerka (University of Toronto, Yale University, mikhail.askerka@aya.yale.edu) 
 
