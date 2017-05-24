@@ -91,7 +91,7 @@ for i in range(len(df_new)):
             l+=list(np.empty(1) * np.nan)
     my_list.append(l)
 df_atom = pd.DataFrame(my_list,columns=columns)
-df_atom = df_prop.fillna(0).astype(int)
+df_atom = df_atom.fillna(0).astype(int)
 
 ###########################################
 ### Prepare the feature for vectorizing ###
