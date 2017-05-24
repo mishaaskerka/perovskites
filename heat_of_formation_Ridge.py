@@ -164,7 +164,6 @@ from datetime import datetime
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import mean_squared_error
-clf = KernelRidge(alpha= 0.056234132519034911, gamma = 0.1333521432163324, kernel= 'rbf')
 clf = KernelRidge(alpha= 0.1, gamma = 0.1, kernel= 'rbf')
 startTime = datetime.now()
 clf.fit(X_train, y_train)
