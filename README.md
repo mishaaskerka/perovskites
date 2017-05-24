@@ -13,7 +13,7 @@ You will need a working python 2 installation. Then follow this link to install 
 Here are the steps to install the modules required by the python script:
 
 ```
-pip install numpy matplotlib pandas 
+pip install numpy matplotlib pandas mendeleev==0.2.8 
 
 pip install --upgrade --user ase
 
