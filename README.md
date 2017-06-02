@@ -29,6 +29,11 @@ python heat_of_formation_Ridge.py
 
 This will create a csv file that is ready to use by any machine leanring module and an image with the predictions of the Kernel Ridge regressor. 
 
+```
+python heat_of_formation_Ridge_06_02.py 
+```
+
+If you want to run a newer version (still in development). Here the newly added features helped reduce the MAE to 0.06 eV.  
 ## Contributors
 
 Mikhail Askerka (University of Toronto, Yale University, mikhail.askerka@aya.yale.edu) 
